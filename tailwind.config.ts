@@ -11,9 +11,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#F3F3F3', // Light gray
-        secondary: '#312F2F', // Dark grayish-brown
-        red: '#FE5E54', // Red color
+        primary: '#F3F3F3',
+        secondary: '#F79F1A',
+        red: '#FE5E54',
         bisque: '#FFE1C5', // Light beige
         background: 'var(--background)',
         foreground: 'var(--foreground)',

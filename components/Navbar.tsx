@@ -42,14 +42,14 @@ const Navbar = () => {
   const safeData = Array.isArray(data) ? data : [];
 
   return (
-    <nav className=' text-primary sticky top-0 left-0 w-full z-50 shadow-lg'>
+    <nav className='  sticky top-0 left-0 w-full z-50 shadow-lg'>
       <div className='max-w-6xl mx-auto px-4'>
         <div className='flex justify-between h-16 items-center'>
           {/* Logo */}
           <div className='flex-shrink-0 flex items-center'>
             <Link
               href='/'
-              className='text-2xl font-extrabold text-bisque hover:text-red transition-all duration-300'
+              className='text-2xl font-extrabold  hover:text-red transition-all duration-300'
             >
               Recipes Here
             </Link>
@@ -71,10 +71,7 @@ const Navbar = () => {
           {/* User and Mobile Menu */}
           <div className='flex items-center gap-4'>
             {user?.email === 'admin@gmail.com' && (
-              <Link
-                href={'/admin'}
-                className='hover:text-bisque transition-all'
-              >
+              <Link href={'/admin'} className='hover: transition-all'>
                 Dashboard
               </Link>
             )}
@@ -106,10 +103,10 @@ const Navbar = () => {
 
                 {/* Dropdown */}
                 {isDropdownOpen && (
-                  <div className='absolute right-0 mt-2 w-48  text-primary border border-bisque rounded-lg shadow-lg p-2'>
+                  <div className='absolute right-0 mt-2 w-48   border border-bisque rounded-lg shadow-lg p-2'>
                     <button
                       onClick={handleLogout}
-                      className='w-full text-left px-4 py-2 hover:bg-red hover:text-primary transition-all rounded-lg'
+                      className='w-full text-left px-4 py-2 hover:bg-red hover: transition-all rounded-lg'
                     >
                       Logout
                     </button>
@@ -119,14 +116,14 @@ const Navbar = () => {
             )}
 
             {/* Mobile Menu */}
-            <Sheet>
+            <Sheet className=''>
               <SheetTrigger>
-                <Menu className='md:hidden text-2xl text-primary' />
+                <Menu className='md:hidden text-2xl ' />
               </SheetTrigger>
-              <SheetContent className='dark:bg-black bg-white p-4'>
+              <SheetContent className='  p-4 '>
                 <SheetHeader>
                   <SheetTitle>
-                    <Link className='text-bisque font-extrabold' href={'/'}>
+                    <Link className=' font-extrabold' href={'/'}>
                       Logo
                     </Link>
                   </SheetTitle>
