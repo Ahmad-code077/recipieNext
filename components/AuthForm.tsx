@@ -105,7 +105,7 @@ export const AuthForm: React.FC<Props> = ({ type, schema, onSubmit }) => {
 
         <Button
           type='submit'
-          className='w-full bg-red hover:bg-bisque hover:text-black'
+          className='w-full bg-secondary hover:bg-bisque hover:text-black'
         >
           {type === 'signup' ? 'Sign Up' : 'Log In'}
         </Button>

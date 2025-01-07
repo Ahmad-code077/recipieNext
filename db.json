@@ -1,0 +1,19 @@
+{
+  "recipes": [
+    {
+      "title": "this is new recipe",
+      "image": "https://cdn.dummyjson.com/recipe-images/4.webp",
+      "ingredients": ["Bread", "Butter", "Cheese"],
+      "instructions": "Butter the bread. Place cheese between two slices of bread. Grill until golden and crispy.",
+      "id": "4"
+    }
+  ],
+  "users": [
+    {
+      "id": "a787",
+      "name": "Ahmad",
+      "email": "ahmadeveloper077@gmail.com",
+      "password": "ahmadeveloper077@gmail.com"
+    }
+  ]
+}

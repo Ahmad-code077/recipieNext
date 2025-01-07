@@ -49,7 +49,7 @@ const Navbar = () => {
           <div className='flex-shrink-0 flex items-center'>
             <Link
               href='/'
-              className='text-2xl font-extrabold  hover:text-red transition-all duration-300'
+              className='text-2xl font-extrabold  hover:text-secondary transition-all duration-300'
             >
               Recipes Here
             </Link>
@@ -61,7 +61,7 @@ const Navbar = () => {
               <Link
                 href={item.link}
                 key={item.id}
-                className='hover:text-red hover:underline hover:scale-105 transition-transform duration-300'
+                className='hover:text-secondary hover:underline hover:scale-105 transition-transform duration-300'
               >
                 {item.title}
               </Link>
@@ -77,11 +77,11 @@ const Navbar = () => {
             )}
             {!user ? (
               <div>
-                <Link href={'/login'} className='hover:text-red'>
+                <Link href={'/login'} className='hover:text-secondary'>
                   Login
                 </Link>
                 <span> / </span>
-                <Link href={'/signup'} className='hover:text-red'>
+                <Link href={'/signup'} className='hover:text-secondary'>
                   Signup
                 </Link>
               </div>
@@ -116,7 +116,7 @@ const Navbar = () => {
             )}
 
             {/* Mobile Menu */}
-            <Sheet className=''>
+            <Sheet>
               <SheetTrigger>
                 <Menu className='md:hidden text-2xl ' />
               </SheetTrigger>
@@ -133,7 +133,7 @@ const Navbar = () => {
                     <Link
                       href={item.link}
                       key={item.id}
-                      className='hover:text-red border-b-2 py-4 transition-all duration-300'
+                      className='hover:text-secondary border-b-2 py-4 transition-all duration-300'
                     >
                       {item.title}
                     </Link>
