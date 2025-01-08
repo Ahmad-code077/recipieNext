@@ -21,9 +21,9 @@ const HeroSection = () => {
               Explore Recipes
             </button>
           </Link>
-          <Link href='/learn-more' passHref>
+          <Link href='/contact' passHref>
             <button className='px-6 py-3 bg-transparent border-2 border-bisque rounded-lg transition-all duration-300 transform hover:bg-secondary hover:text-white hover:scale-105 hover:shadow-xl w-1/2 md:w-max'>
-              Learn More
+              Contact Us
             </button>
           </Link>
         </div>

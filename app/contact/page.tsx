@@ -28,7 +28,7 @@ const Contact: React.FC = () => {
       id: 2,
       icon: <Mail size={48} className='text-secondary' />,
       title: 'Email Us',
-      description: 'recipe@gmail.com',
+      description: 'tastybite@gmail.com',
     },
     {
       id: 3,
@@ -91,9 +91,9 @@ const Contact: React.FC = () => {
       {/* Header Section */}
       <div className='text-center mb-10'>
         <h1 className='text-5xl font-extrabold text-gray-900 dark:text-white'>
-          Contact <span className='text-secondary'>Recipe Finder</span>
+          Contact <span className='text-secondary'>TastyBite</span>
         </h1>
-        <p className='text-lg text-gray-700 dark:text-gray-300 mt-4'>
+        <p className='text-lg text-gray-700  dark:text-gray-300 mt-4'>
           We’d love to hear from you! Whether you have questions, feedback, or
           just want to say hello, feel free to reach out to us.
         </p>

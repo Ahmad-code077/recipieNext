@@ -51,7 +51,7 @@ const Navbar = () => {
               href='/'
               className='text-2xl font-extrabold  hover:text-secondary transition-all duration-300'
             >
-              Recipes Here
+              TastyBite
             </Link>
           </div>
 
@@ -71,7 +71,10 @@ const Navbar = () => {
           {/* User and Mobile Menu */}
           <div className='flex items-center gap-4'>
             {user?.email === 'admin@gmail.com' && (
-              <Link href={'/admin'} className='hover: transition-all'>
+              <Link
+                href={'/admin'}
+                className='hover:text-secondary  transition-all'
+              >
                 Dashboard
               </Link>
             )}
@@ -89,7 +92,7 @@ const Navbar = () => {
               <div className='relative'>
                 <button
                   onClick={() => setDropdownOpen(!isDropdownOpen)}
-                  className='flex items-center gap-2 w-9 h-9 rounded-full border-2 border-bisque hover:border-red transition-all'
+                  className='flex items-center gap-2 w-9 h-9 rounded-full border-2 border-bisque hover:border-secondary transition-all'
                 >
                   <Avatar>
                     <AvatarImage
@@ -106,7 +109,7 @@ const Navbar = () => {
                   <div className='absolute right-0 mt-2 w-48   border border-bisque rounded-lg shadow-lg p-2'>
                     <button
                       onClick={handleLogout}
-                      className='w-full text-left px-4 py-2 hover:bg-red hover: transition-all rounded-lg'
+                      className='w-full text-left px-4 py-2 hover:bg-secondary hover: transition-all rounded-lg'
                     >
                       Logout
                     </button>
@@ -124,7 +127,7 @@ const Navbar = () => {
                 <SheetHeader>
                   <SheetTitle>
                     <Link className=' font-extrabold' href={'/'}>
-                      Logo
+                      TastyBite
                     </Link>
                   </SheetTitle>
                 </SheetHeader>

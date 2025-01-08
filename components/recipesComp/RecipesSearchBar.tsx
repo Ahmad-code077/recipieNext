@@ -8,7 +8,7 @@ const RecipesSearchBar: React.FC<RecipesSearchBarProps> = ({
     <div className='my-8'>
       <label
         htmlFor='search'
-        className='block text-lg font-semibold text-primary mb-2'
+        className='block text-lg font-semibold text-secondary mb-2'
       >
         Search Your Favourite Recipes
       </label>
@@ -19,7 +19,7 @@ const RecipesSearchBar: React.FC<RecipesSearchBarProps> = ({
           placeholder='Search recipes...'
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          className='px-6 py-3 w-96 text-lg border-2 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary transition-all ease-in-out'
+          className='px-6 py-3 w-96 text-lg border-2 border-secondary rounded-lg focus:outline-none focus:ring-2 focus:ring-primary transition-all ease-in-out'
         />
       </div>
     </div>

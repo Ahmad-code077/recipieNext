@@ -1,11 +1,48 @@
 {
   "recipes": [
     {
-      "title": "this is new recipe",
-      "image": "https://cdn.dummyjson.com/recipe-images/4.webp",
-      "ingredients": ["Bread", "Butter", "Cheese"],
-      "instructions": "Butter the bread. Place cheese between two slices of bread. Grill until golden and crispy.",
-      "id": "4"
+      "title": "hello world ",
+      "image": "https://cdn.dummyjson.com/recipe-images/2.webp",
+      "ingredients": [
+        "Apples",
+        "Sugar",
+        "Cinnamon",
+        "PieCrust",
+        "nothing more"
+      ],
+      "instructions": "thius is the instructions ",
+      "id": "4010"
+    },
+    {
+      "id": "2331",
+      "title": "new recipie here ",
+      "image": "https://cdn.dummyjson.com/recipe-images/8.webp",
+      "ingredients": [
+        "Apples",
+        "Sugar",
+        "Cinnamon",
+        "PieCrust",
+        ""
+      ],
+      "instructions": "check the url here "
+    },
+    {
+      "id": "db70",
+      "title": "last but first ",
+      "image": "https://cdn.dummyjson.com/recipe-images/10.webp",
+      "ingredients": [
+        "hkjhjk"
+      ],
+      "instructions": "jhkjh"
+    },
+    {
+      "id": "27da",
+      "title": "aaa",
+      "image": "https://cdn.dummyjson.com/recipe-images/1.webp",
+      "ingredients": [
+        "hkjh"
+      ],
+      "instructions": "jhkjh"
     }
   ],
   "users": [
@@ -14,6 +51,12 @@
       "name": "Ahmad",
       "email": "ahmadeveloper077@gmail.com",
       "password": "ahmadeveloper077@gmail.com"
+    },
+    {
+      "id": "cb8e",
+      "name": "Ahmad",
+      "email": "admin@gmail.com",
+      "password": "admin@gmail.com"
     }
   ]
 }

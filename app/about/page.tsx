@@ -34,10 +34,10 @@ const About: React.FC = () => {
       {/* Text Section */}
       <div>
         <h1 className='text-5xl font-extrabold text-center text-gray-900 dark:text-white mb-8'>
-          About <span className='text-secondary'>Recipe Finder</span>
+          About <span className='text-secondary'>TastyBite</span>
         </h1>
         <p className='text-xl text-gray-700 dark:text-gray-300 mb-10 leading-relaxed'>
-          Welcome to <strong>Recipe Finder</strong>, your ultimate platform for
+          Welcome to <strong>TastyBite</strong>, your ultimate platform for
           exploring and discovering a wide variety of delicious recipes. Whether
           you are a culinary expert or just beginning your cooking journey, we
           offer something for everyone.
@@ -47,12 +47,11 @@ const About: React.FC = () => {
           Our Vision
         </h2>
         <p className='text-lg text-gray-700 dark:text-gray-300 mb-10 leading-relaxed'>
-          At Recipe Finder, we envision a world where everyone can enjoy cooking
-          and eating healthy, tasty meals. We aim to inspire people to
-          experiment with different cuisines, cooking styles, and new
-          ingredients. Our platform is designed to empower both beginners and
-          experienced cooks to discover exciting recipes and bring them to life
-          in their kitchens.
+          At TastyBite, we envision a world where everyone can enjoy cooking and
+          eating healthy, tasty meals. We aim to inspire people to experiment
+          with different cuisines, cooking styles, and new ingredients. Our
+          platform is designed to empower both beginners and experienced cooks
+          to discover exciting recipes and bring them to life in their kitchens.
         </p>
 
         <h2 className='text-4xl font-semibold text-gray-900 dark:text-white mb-6'>
@@ -86,14 +85,14 @@ const About: React.FC = () => {
         <p className='text-lg text-gray-700 dark:text-gray-300 mb-8 leading-relaxed'>
           We’re passionate about food and bringing people together through
           cooking. Whether you&apos;re looking for quick weeknight dinners or
-          seeking inspiration for a special occasion, Recipe Finder is your
-          perfect companion in the kitchen. Join our growing community and start
+          seeking inspiration for a special occasion, TastyBite is your perfect
+          companion in the kitchen. Join our growing community and start
           exploring the endless culinary possibilities today!
         </p>
 
         {/* Cards Section */}
         <h2 className='text-4xl font-semibold text-gray-900 dark:text-white mb-6 text-center'>
-          Why Recipe Finder?
+          Why TastyBite?
         </h2>
         <div className='grid md:grid-cols-3 gap-8'>
           {cards.map((card) => (
